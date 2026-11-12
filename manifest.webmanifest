@@ -1,0 +1,12 @@
+{
+  "name": "Vale de Âmbar — RPG 3D",
+  "short_name": "Vale de Âmbar",
+  "description": "Crônicas do Norte: uma aventura em primeira pessoa.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#10131b",
+  "theme_color": "#10131b",
+  "lang": "pt-BR"
+}
