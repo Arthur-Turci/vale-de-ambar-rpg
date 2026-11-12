@@ -1,4 +1,4 @@
-const VERSION='vale-ambar-4.2';
+const VERSION='vale-ambar-4.3';
 self.addEventListener('install',event=>{event.waitUntil(self.skipWaiting())});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{const names=await caches.keys();await Promise.all(names.filter(name=>name.startsWith('vale-ambar-')&&name!==VERSION).map(name=>caches.delete(name)));await self.clients.claim()})())});
 self.addEventListener('message',event=>{if(event.data&&event.data.type==='SKIP_WAITING')self.skipWaiting()});
